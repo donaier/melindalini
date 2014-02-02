@@ -13,3 +13,36 @@
  *= require_self
  *= require_tree .
  */
+
+*{
+  color: #7f7f7f;
+}
+
+#page_container{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+#body_content_title, #side_body{
+  display: none;
+}
+
+header{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#body{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#body h2{
+  text-align: center
+}
+
+#body img{
+  max-width: 1200px;
+  margin-left: -200px;
+  height: auto;
+}
