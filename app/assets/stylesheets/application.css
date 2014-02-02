@@ -16,6 +16,7 @@
 
 *{
   color: #7f7f7f;
+  font-family: 'Droid Serif', serif;
 }
 
 #page_container{
@@ -32,6 +33,18 @@ header{
   margin: 0 auto;
 }
 
+span.heart{
+  display: inline-block;
+  background-image: url('/assets/herz.png');
+  width: 47px;
+  height: 40px;
+}
+
+.language-navigation{
+  text-align: right;
+  padding: 20px 0;
+}
+
 #body{
   max-width: 800px;
   margin: 0 auto;
@@ -45,4 +58,20 @@ header{
   max-width: 1200px;
   margin-left: -200px;
   height: auto;
+}
+
+#body p{
+  padding: 10px 0 30px;
+}
+
+#body p:after{
+  content: '';
+  display: block;
+  width: 47px;
+  height: 40px;
+  background-image: url('/assets/herz.png');
+  position: relative;
+  left: 50%;
+  margin-left: -23px;
+  margin-top: 30px;
 }
