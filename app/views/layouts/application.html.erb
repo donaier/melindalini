@@ -7,6 +7,12 @@
   </head>
   <body id="<%= canonical_id @page %>">
     <%= site_bar -%>
+    <header>
+      <div class="language-navigation">
+        <%= link_to 'Deutsch', refinery.url_for(:locale => :de), class: I18n.locale == :fr ? 'selectable' : '' %>
+        <%= link_to 'Francais', refinery.url_for(:locale => :fr), class: I18n.locale == :de ? 'selectable' : '' %>
+      </div>
+    </header>
     <div id="page_container">
       <section id="page">
         <%= yield %>

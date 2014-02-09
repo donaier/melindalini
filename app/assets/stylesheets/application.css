@@ -19,6 +19,10 @@
   font-family: 'Droid Serif', serif;
 }
 
+h2{
+  font-size: 28px;
+}
+
 #page_container{
   margin: 0 auto;
   max-width: 1200px;
@@ -43,6 +47,15 @@ span.heart{
 .language-navigation{
   text-align: right;
   padding: 20px 0;
+}
+
+.language-navigation a{
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.language-navigation a.selectable{
+  text-decoration: underline;
 }
 
 #body{
